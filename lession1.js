@@ -22,3 +22,13 @@ console.log(triple(2));
 
 console.log(add(2,5)); // will return 7
 console.log(sum(2,5,2)); // will return 9
+
+
+function getUpperCaseName(name){
+	return name.toUpperCase();
+}
+
+// Sample usage (do not modify)
+console.log(getUpperCaseName("sam"))
+console.log(getUpperCaseName("alex"))
+console.log(getUpperCaseName("Johnny"))
